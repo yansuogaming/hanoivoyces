@@ -14,7 +14,7 @@ body {
 /* CSS Header */
 
 .bground_header {
-    background-image: url("img/background_header.png");
+    background-image: url("../img/background_header.png");
     background-size: cover;
     background-position: center;
     height: 791px;
