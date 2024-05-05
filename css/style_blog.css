@@ -1,0 +1,236 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  display: block;  
+  font-family: "SF Pro Display";
+}
+
+.img100 {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS Header */
+
+.bground_header {
+    background-image: url("../img/blog/bground_blog.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    /* padding: 0px 0 30px 0; */
+    position: relative;
+    z-index: 1;
+  }
+
+  .bground_header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(24, 28, 26, 0.48) 0%, rgba(24, 28, 26, 0.00) 100%);
+    z-index: -1;
+  }
+  
+  .txt_pcust {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 18px;
+  }
+
+  .icon-txt-mail-span img {
+    margin-right: 10px;
+    filter: brightness(0%) invert(100%)
+  }
+
+  .img_icon {
+    display: flex;
+    width: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-txt-mail-span a {
+    text-decoration: none;
+  }
+
+  .icon-txt-mail-span span {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .txt_dropdown {
+    color: var(--Neutral-6, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  .drop_down {
+    border-radius: 48px;
+    background: rgba(255, 255, 255, 0.40);
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-right: 18px;
+  }
+
+  .drop_down2 {
+    border-radius: 48px;
+    background: rgba(255, 255, 255, 0.40);
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .drop_down2 a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .border-bottom {
+    border-bottom: 0.5px solid #ffffff !important;
+  }
+
+  .txt_h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-top: 127px;
+  }
+
+  .text_pp {
+    color: var(--Neutral-5, #F0F0F0);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 24px;
+  }
+
+  .btn-followus {
+    display: inline-flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--Primary, #FFA718) !important;
+    color: var(--Neutral-6, #FFF) !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 40px;
+  }
+
+  /* CSS Body Blog */
+
+  .breadcrumb_list {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+.txt_youarehere {
+    color: #111D37;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 12px;
+    margin-bottom: 0; 
+    line-height: 24px;  
+  }
+
+.breadcrumb .container {
+    display: flex;
+    align-items: center;
+  }
+  
+.breadcrumb ol {
+    margin-top: 0;    
+    margin-bottom: 0; 
+  }
+  
+.breadcrumb-item {
+    line-height: 24px; 
+  }
+  
+.breadcrumb-item a { 
+  color: #FFA718;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  }
+
+.breadcrumb-item.active {
+    color: #111D37;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+
+.card-bodyblog a {
+  text-decoration: none;
+}
+
+.card-bodyblog {
+  margin-top: 24px;
+  border-bottom: 1px solid #D3DCE1; /* Hoặc màu sắc bạn muốn */
+}
+
+.txtblog_h2 {
+  color: #111D37;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.txtblog_h2:hover {
+  text-decoration: underline;
+}
+
+.picblog {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.txtblog_p {
+  color: #434B5C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.txtblog_p2 {
+  color: #434B5C;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+
+}
+  

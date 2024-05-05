@@ -108,7 +108,7 @@ body {
   }
 
   .border-bottom {
-    border-bottom: 1px solid #ffffff !important
+    border-bottom: 0.5px solid #ffffff !important;
   }
 
   .txt_h2 {
@@ -812,7 +812,7 @@ body {
     margin-bottom: 55px;
 }
 
-.img_day {
+.img_line {
     position: absolute;
     width: 996px;
     height: 46px;
